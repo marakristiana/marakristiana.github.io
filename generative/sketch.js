@@ -15,14 +15,14 @@ function draw() {
   x = random (400)
   y = 200
   stroke(0,20)
-  circle(600, 0, jebkas);
+  circle(windowWidth, 0, jebkas);
   circle(0, 0, jebkas);
-  circle(0, 600, jebkas);
-  circle(0, 400, jebkas);
-  circle(600, 400, jebkas)
+  circle(0, windowHeight, jebkas);
+  circle(0, windowWidth, jebkas);
+  circle(WindowHeight, windowWidth, jebkas)
    noFill();
   
   line (x, 0, y, jebkas)
-   line (300, x, jebkas, y)
+   line (windowWidth/2, x, jebkas, y)
  
 }
