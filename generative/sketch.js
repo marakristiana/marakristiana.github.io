@@ -3,7 +3,7 @@ let jebkas;
 
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
