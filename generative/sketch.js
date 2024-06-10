@@ -21,7 +21,7 @@ function draw() {
     // draw circle bottom-right
     circle(width, height, r);
     // draw circle in center of canvas
-    circle(mousex, mousey, r);
+    circle(width/2, height/2, r);
 
     strokeWeight(random(0.1, 1));
 
