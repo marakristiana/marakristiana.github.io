@@ -36,7 +36,7 @@ function draw() {
     x1 = width * 0.666;
     y1 = height;
     x2 = random(width);
-    y2 = height * 0.666;
+    y2 = height * 0.333;
 
     line(x1, y1, x2, y2);
 }
